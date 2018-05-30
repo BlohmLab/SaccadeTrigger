@@ -149,7 +149,7 @@ try
             D{iTrial}.eyeXa = aiDiff(1/D{1}.sfr1,D{1}.win,D{iTrial}.eyeXv);
             D{iTrial}.eyeYa = aiDiff(1/D{1}.sfr1,D{1}.win,D{iTrial}.eyeYv);
             D{iTrial}.eyeVa = sqrt(D{iTrial}.eyeXa.^2 + D{iTrial}.eyeYa.^2);
-            [D{iTrial}.sacc, D{iTrial}.eyeXvws, D{iTrial}.eyeYvws, D{iTrial}.eyeVvws] = detectSaccades2(D,iTrial);
+            [D{iTrial}.sacc, D{iTrial}.eyeXvws, D{iTrial}.eyeYvws, D{iTrial}.eyeVvws] = DetectSaccades(D,iTrial);
         end
         cd(savePath);
         save([filename2(1:end-4) 'D.mat'],'D');
