@@ -410,7 +410,7 @@ try
     
     %% Save block parameters to the matlab file
     save([path_name '/' file_name], 'num_trials', 'edf_file', 'subject_id', 'block_number','session_number','condition', 'dist_to_screen', 'screen_width', 'screen_height', 'x_pixels', 'y_pixels', 'ppdy'...
-    ,'x_center', 'frame_rate','ppdx','ppcmx','ppcmy', 'y_center', 'dot_colour', 'dot_size', 'flip_interval',... %name and specs
+    ,'x_center','x_pixels','y_pixels', 'frame_rate','ppdx','ppdy','ppcmx','ppcmy', 'y_center', 'dot_colour', 'dot_size', 'flip_interval',... %name and specs
                                 'frame_infos', 'n_frames' , 'para_trial',... %parameters
                                 'exp_array'); %target location and time for each trial 
     
