@@ -2,7 +2,7 @@
 
 This repository contains code to run a psychophysics eye-tracking double-step ramp task for the project titled **Predicted Position Error Triggers Catch-up Saccades During Sustained Smooth Pursuit**. For those wishing to replicate the findings from this study, the analysis code and steps are provided as well.
 
-Data collected during the summer of 2018 pertaining to the paper can be found at this[dryad repository](https://doi.org/10.5061/dryad.245j1p8).
+Data collected during the summer of 2018 pertaining to the paper can be found at this [dryad repository](https://doi.org/10.5061/dryad.245j1p8).
 The pre-registered report related to this study can be found on [OSF](https://osf.io/wvjbf/).
 
 To begin, clone the repository and ensure all system requirements are met. 
