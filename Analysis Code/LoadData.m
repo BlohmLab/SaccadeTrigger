@@ -66,28 +66,28 @@ try
         D{1}.dFilename = [filename2(1:end-4) 'D.mat']; % General filename
         D{1}.xpFilename = filename1;	% Mat filename
         D{1}.edfFilename = filename2;	% Edf filename
-        D{1}.subjectID = subjectID;
-        D{1}.blockNumber = blockNumber;
-        D{1}.numTrials = numTrials;
+        D{1}.subjectID = subject_id;
+        D{1}.blockNumber = block_number;
+        D{1}.numTrials = num_trials;
         D{1}.condition = condition; %0 = clear target, 1= blurred target. 
-        D{1}.dist2Screen =  dist2Screen; %From centre of screen to chin rest of eyelink mount
-        D{1}.screenWidth = screenWidth; 
-        D{1}.screenHeight = screenHeight;
-        D{1}.xCenter = xCenter;
-        D{1}.yCenter = yCenter;
-        D{1}.xPixels = xPixels;
-        D{1}.yPixels = yPixels;
+        D{1}.dist2Screen =  dist_to_screen; %From centre of screen to chin rest of eyelink mount
+        D{1}.screenWidth = screen_width; 
+        D{1}.screenHeight = screen_height;
+        D{1}.xCenter = x_center;
+        D{1}.yCenter = y_center;
+        D{1}.xPixels = x_pixels;
+        D{1}.yPixels = y_pixels;
         D{1}.ppdx = ppdx;
         D{1}.ppdy = ppdy;
         D{1}.ppcmx = ppcmx;
         D{1}.ppcmy = ppcmy;
-        D{1}.frameRate = frameRate;
-        D{1}.dotSize = dotSize;
-        D{1}.dotColour = dotColour;
-        D{1}.flipInterval =  flipInterval;
-        D{1}.frameInfos = frameInfos;
-        D{1}.nFrames = nFrames;
-        D{1}.paraTrial = paraTrial; %initial trial parameteres for all trials
+        D{1}.frameRate = frame_rate;
+        D{1}.dotSize = dot_size;
+        D{1}.dotColour = dot_colour;
+        D{1}.flipInterval =  flip_Iinterval;
+        D{1}.frameInfos = frame_infos;
+        D{1}.nFrames = n_frames;
+        D{1}.paraTrial = para_trial; %initial trial parameteres for all trials
         D{1}.exp_array = exp_array; %target trajectories for all trials
        
         %eyelink
