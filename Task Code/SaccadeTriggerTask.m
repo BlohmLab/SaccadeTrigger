@@ -170,7 +170,7 @@ try
         %pixel values relative to the center of the screen. 
         
      for aTrial = 1: num_trials
-        [initial_condition, trial_matrix, frame_info] = makeTrial3(dist_to_screen, frame_rate,ppcmx); %function that returns all the necessary target parameters/locations.
+        [initial_condition, trial_matrix, frame_info] = generateTrial(dist_to_screen, frame_rate,ppcmx); %function that returns all the necessary target parameters/locations.
         
         %Fill in empty variables with new information
         frame_infos(:,aTrial) = frame_info;
